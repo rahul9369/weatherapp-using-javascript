@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+input[type="text"] {
+  text-align: center;
+}
+
+.search-box {
+  margin: 30px 30px;
+  align-items: center;
+}
+.inp {
+  margin-top: 20px;
+  border: none;
+  padding: 8px;
+  background-color: rgb(201, 248, 232);
+  border-radius: 5px;
+  font-size: 20px;
+}
+Button {
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(198, 240, 226);
+  font-size: 20px;
+  color: gray;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+Button:hover {
+  color: rgb(12, 22, 22);
+  background-color: beige;
+}
+.city {
+  text-align: center;
+  margin-right: 10px;
+}
+.container {
+  width: 450px;
+  height: 450px;
+  margin: 10px auto;
+  border: 2px;
+  box-shadow: 1px 2px 9px gray;
+}
+.hidden {
+  display: none;
+}
+.Img {
+  margin-top: 0px;
+  position: relative;
+  left: 130px;
+}
+.weather-text {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+.weather-body {
+  margin: 0px 30px;
+}
+.degree {
+  text-align: center;
+}
+.WEATHER {
+  margin-left: 10px;
+  text-align: center;
+  position: relative;
+  left: 160px;
+}
